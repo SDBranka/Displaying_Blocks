@@ -22,27 +22,37 @@ img{
 }
 
 #header{
-	min-height: 100px;
-	background-color: teal;
+	/* min-height: 100px; */
+	/* background-color: teal; */
 	padding: 0px auto;
 	margin-bottom: 10px;
-	justify-content: center;
-	align-content: center;
-	display: flex;
+	/* justify-content: center; */
+	/* align-content: center; */
+	/* text-align: bottom; */
+	/* display: flex; */
+	/* display: inline-block; */
 }
 
-.head1, .head2, .head3{
+#head1, #head2, #head3{
 	display:inline-block;
-	justify-content: center;
 	
 }
+	#head1 {
+		height: 50px;
+		padding: 20px 0px 0px 125px;
+	}
 
-.head3{
-	background-color:  white;
-	height: 85px;
-	width: 100px;
-	padding-top: 20px;
-}
+	#head2 {
+		padding: 40px 0px 0px 0px;
+	}
+
+	#head3 {
+		background-color:  white;
+	}
+
+		#head3 img {
+			height: 20px;
+		}
 
 #main{
 	display: flex;
@@ -65,16 +75,3 @@ img{
 	border: 3px solid black;
 	margin:1px;
 }
-
-
-
-
-
-
-  /*div {
-    border: 1px solid #000000;
-  }*/
-
-/*   h1 {
-    text-align: center;
-  }*/
