@@ -7,11 +7,6 @@ div{
 	display:inline-block;
 }
 
-img{
-	width: 100px;
-	height: 100px;
-}
-
 #backdrop{
 	height: 675px;
 	width: 720px;
@@ -22,37 +17,27 @@ img{
 }
 
 #header{
-	/* min-height: 100px; */
-	/* background-color: teal; */
 	padding: 0px auto;
 	margin-bottom: 10px;
-	/* justify-content: center; */
-	/* align-content: center; */
-	/* text-align: bottom; */
-	/* display: flex; */
-	/* display: inline-block; */
 }
 
 #head1, #head2, #head3{
 	display:inline-block;
 	
 }
-	#head1 {
-		height: 50px;
-		padding: 20px 0px 0px 125px;
-	}
 
-	#head2 {
-		padding: 40px 0px 0px 0px;
-	}
+#head1 {
+	height: 50px;
+	padding: 20px 0px 0px 125px;
+}
 
-	#head3 {
-		background-color:  white;
-	}
+#head2 {
+	padding: 40px 0px 0px 0px;
+}
 
-		#head3 img {
-			height: 20px;
-		}
+#head3 {
+	background-color:  white;
+}
 
 #main{
 	display: flex;
@@ -66,12 +51,23 @@ img{
 .blue {
 	background-color:  #82b4ee;
 	padding:15px 15px 12px 15px;
-	border: 3px solid black);
+	border: 3px solid black;
 	margin:5px;
 }
+
+.blue img {
+	width: 100px;
+	height: 100px;
+}
+
 .red {
 	background-color: #f36870;
 	padding:15px 15px 12px 15px;
 	border: 3px solid black;
 	margin:1px;
+}
+
+.red img {
+	width: 100px;
+	height: 100px;
 }
