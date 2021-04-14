@@ -12,7 +12,7 @@ div{
 	width: 720px;
 	background-color: #d5d2ae;
 	margin: 50px auto;
-	padding: 20px;
+	padding: 6px 20px 15px 20px;
 	display: block;
 }
 
@@ -26,13 +26,19 @@ div{
 	
 }
 
-#head1 {
+#head1, #head3 {
 	height: 50px;
-	padding: 20px 0px 0px 125px;
+	width: 90px;
+}
+
+#head1 {
+	padding: 20px 0px 0px 105px;
 }
 
 #head2 {
 	padding: 40px 0px 0px 0px;
+	font-size: 36px;
+	font-weight: bolder;
 }
 
 #head3 {
@@ -41,16 +47,12 @@ div{
 
 #main{
 	display: flex;
-	flex-direction: column;
-}
-
-.row{
-	flex: 1;
+	flex-wrap: wrap;
 }
 
 .blue {
 	background-color:  #82b4ee;
-	padding:15px 15px 12px 15px;
+	padding: 15px 15px 12px 15px;
 	border: 3px solid black;
 	margin:5px;
 }
@@ -64,10 +66,10 @@ div{
 	background-color: #f36870;
 	padding:15px 15px 12px 15px;
 	border: 3px solid black;
-	margin:1px;
+	margin: 4px;
 }
 
 .red img {
-	width: 100px;
+	width: 95px;
 	height: 100px;
 }
